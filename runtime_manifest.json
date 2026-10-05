@@ -1,0 +1,74 @@
+{
+  "schema_version": 1,
+  "manifest_version": "2026.10.01",
+  "source": "https://github.com/ggml-org/llama.cpp/releases/tag/b10516",
+  "license": "MIT",
+  "runtimes": [
+    {
+      "id": "windows-x64-cuda12",
+      "display_name": "llama.cpp CUDA 12.4",
+      "version": "b10516",
+      "os": "windows",
+      "architecture": "x86_64",
+      "backend": "cuda",
+      "enabled": true,
+      "minimum_nvidia_driver": "551.61",
+      "artifacts": [
+        {
+          "filename": "llama-b10516-bin-win-cuda-12.4-x64.zip",
+          "url": "https://github.com/ggml-org/llama.cpp/releases/download/b10516/llama-b10516-bin-win-cuda-12.4-x64.zip",
+          "sha256": "96d64faeb5b8e655341f32b26ad3e51fbea8bff0bc8120ad3dbffdc0b05b8ad3",
+          "size": 250892658,
+          "archive": "zip"
+        },
+        {
+          "filename": "cudart-llama-bin-win-cuda-12.4-x64.zip",
+          "url": "https://github.com/ggml-org/llama.cpp/releases/download/b10516/cudart-llama-bin-win-cuda-12.4-x64.zip",
+          "sha256": "8c79a9b226de4b3cacfd1f83d24f962d0773be79f1e7b75c6af4ded7e32ae1d6",
+          "size": 391443627,
+          "archive": "zip"
+        }
+      ],
+      "executable": "llama-server.exe"
+    },
+    {
+      "id": "windows-x64-cpu",
+      "display_name": "llama.cpp CPU",
+      "version": "b10516",
+      "os": "windows",
+      "architecture": "x86_64",
+      "backend": "cpu",
+      "enabled": true,
+      "artifacts": [
+        {
+          "filename": "llama-b10516-bin-win-cpu-x64.zip",
+          "url": "https://github.com/ggml-org/llama.cpp/releases/download/b10516/llama-b10516-bin-win-cpu-x64.zip",
+          "sha256": "fbbbc55e0eb2e1b07f9dcb9488616c98ed47d9003b90e15e7c8c7812c4307cd3",
+          "size": 18506923,
+          "archive": "zip"
+        }
+      ],
+      "executable": "llama-server.exe"
+    },
+    {
+      "id": "windows-x64-vulkan",
+      "display_name": "llama.cpp Vulkan",
+      "version": "b10516",
+      "os": "windows",
+      "architecture": "x86_64",
+      "backend": "vulkan",
+      "enabled": true,
+      "artifacts": [
+        {
+          "filename": "llama-b10516-bin-win-vulkan-x64.zip",
+          "url": "https://github.com/ggml-org/llama.cpp/releases/download/b10516/llama-b10516-bin-win-vulkan-x64.zip",
+          "sha256": "530f57d2a874ce017827c1e5a926812b9d5de4667248575d1372b1c0acf94d83",
+          "size": 34861181,
+          "archive": "zip"
+        }
+      ],
+      "executable": "llama-server.exe"
+    }
+  ],
+  "notes": "Pinned official release assets; SHA256 and sizes verified against GitHub release metadata on 2026-10-01. CPU is the explicit default; CUDA and Vulkan require suitable drivers."
+}

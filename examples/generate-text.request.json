@@ -1,0 +1,9 @@
+{
+  "provider_preset": "Ollama Native",
+  "base_url": "http://127.0.0.1:11434",
+  "engine_model": "YOUR_INSTALLED_MODEL",
+  "model_supports_images": false,
+  "idea": "A wooden chair in a sunlit minimalist room",
+  "mode": "Enhance",
+  "target_model": "Generic"
+}

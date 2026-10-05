@@ -1,0 +1,21 @@
+[project]
+name = "koo-apes-prompter"
+version = "1.2.0"
+description = "Independent multimodal prompt director with optional llama.cpp, Ollama and OpenAI-compatible providers."
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = ["aiohttp", "Pillow"]
+license = {file = "LICENSE"}
+
+[project.urls]
+Repository = "https://github.com/kevintronchin-blip/koo-apes-prompter"
+[tool.comfy]
+DisplayName = "KoO Apes Prompter"
+PublisherId = "koo-ai"
+
+[tool.setuptools]
+py-modules = []
+
+[tool.setuptools.packages.find]
+include = ["nodes*", "shared*"]
+exclude = ["tests*", "docs*", "assets*", "installer*"]

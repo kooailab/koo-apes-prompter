@@ -1,0 +1,9 @@
+{
+  "local_llama_cpp": {
+    "llama_server": "",
+    "port": 8189,
+    "context_size": 8192,
+    "gpu_layers": "auto",
+    "startup_timeout": 180
+  }
+}
