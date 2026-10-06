@@ -8,7 +8,7 @@ dependencies = ["aiohttp", "Pillow"]
 license = {file = "LICENSE"}
 
 [project.urls]
-Repository = "https://github.com/kevintronchin-blip/koo-apes-prompter"
+Repository = "https://github.com/kooailab/koo-apes-prompter"
 [tool.comfy]
 DisplayName = "KoO Apes Prompter"
 PublisherId = "koo-ai"
